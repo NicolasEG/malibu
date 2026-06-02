@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Reservas | Malibu</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="topbar"><a class="brand" href="index.html"><img src="assets/img/logo.png">MALIBU</a>
+        <nav class="nav"><a href="index.html">Inicio</a><a href="nosotros.html">Nosotros</a><a
+                href="reservas.html">Reservas</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" style="--hero:url('../img/hero_reservas.png');">
+            <div class="hero-content">
+                <h1>Reservá tu evento</h1>
+                <p>Completá el formulario para solicitar disponibilidad del parador.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="form-wrap">
+                <form class="form-grid">
+                    <div class="field"><label>Nombre completo</label><input placeholder="Nombre y apellido"></div>
+                    <div class="field"><label>Teléfono / WhatsApp</label><input placeholder="Ej: 2257..."></div>
+                    <div class="field"><label>Email</label><input type="email" placeholder="correo@email.com"></div>
+                    <div class="field"><label>Fecha solicitada</label><input type="date"></div>
+                    <div class="field"><label>Horario</label><select>
+                            <option>Almuerzo</option>
+                            <option>Tarde</option>
+                            <option>Noche</option>
+                            <option>Evento completo</option>
+                        </select></div>
+                    <div class="field"><label>Número de invitados</label><input type="number" placeholder="Ej: 80">
+                    </div>
+                    <div class="field"><label>¿Quiere catering?</label><select>
+                            <option>Sí, catering completo</option>
+                            <option>Sí, solo comida</option>
+                            <option>No</option>
+                        </select></div>
+                    <div class="field"><label>Música / DJ</label><select>
+                            <option>Quiero servicio de música</option>
+                            <option>Traigo mi música</option>
+                            <option>No necesito</option>
+                        </select></div>
+                    <div class="field"><label>Fotos y video</label><select>
+                            <option>Quiero consultar servicio</option>
+                            <option>No necesito</option>
+                        </select></div>
+                    <div class="field"><label>Tipo de evento</label><select>
+                            <option>Cumpleaños</option>
+                            <option>Casamiento</option>
+                            <option>Corporativo</option>
+                            <option>Reunión familiar</option>
+                            <option>Otro</option>
+                        </select></div>
+                    <div class="field full"><label>Mensaje</label><textarea rows="5"
+                            placeholder="Contanos detalles del evento..."></textarea></div>
+                    <div class="field full"><button class="btn" type="button">Enviar solicitud de reserva</button></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">© Malibu Parador de Playa.</footer>
+</body>
+
+</html>
